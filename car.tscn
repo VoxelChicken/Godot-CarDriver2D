@@ -8,6 +8,7 @@ size = Vector2(25, 50)
 
 [node name="Car" type="CharacterBody2D"]
 script = ExtResource("1_7822p")
+max_speed = 500.0
 
 [node name="carmesh" type="Sprite2D" parent="."]
 scale = Vector2(0.2, 0.2)
