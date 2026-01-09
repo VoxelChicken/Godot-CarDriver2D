@@ -156,9 +156,9 @@ Then, add new actions (name doesn't matter) and then assign a desired key to tha
 For the final step - assign *car.gd* script to a **CharacterBody2D** (and that's *necessary*, since the *velocity* variable doesn't exist elseswhere as far as I know) and that's it!  
 Now you can test the car!
 
-## Any Errors?
+## Any Errors? Any Questions?
 
-Go to GitHub and submit a new issue under the *issues* tab in the repository for the CarDriver2D.
+Go to GitHub and submit a new discussion / issue under the *issues* tab in the repository for the CarDriver2D.
 
 ---
 
