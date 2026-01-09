@@ -1,7 +1,7 @@
 # Download
 
 There's two ways of doing it:  
-Trough the **Godot Asset Library**, and **GitHub**.
+Through the **Godot Asset Library**, and **GitHub**.
 
 ## Through the Godot Asset Library
 
@@ -30,7 +30,7 @@ Simply select your desired destination of the file, download the add-on, extract
 Then, when you'd like to add it to one of your projects (if you haven't directly added it to one yet), simply add the addons folder to your desired project and there you go!  
 *That's that!*
 
-## Trough GitHub
+## Through GitHub
 
 This one's slightly more advanced, since you will use the terminal for this tutorial, but you get slightly more out of it. Since the *Godot Asset Library* doesn't give you the *entire GitHub repository*, but only the *addons* folder.  
 With the **GitHub method**, you can get your hands on the *entire project*. Since you require the terminal for this, it's easier if I write this down in concrete steps, as follows:
