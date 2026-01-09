@@ -1,3 +1,5 @@
+## PLEASE READ THE README TUTORIAL ON GITHUB! [br][br]
+
 ## The Car class has a script attached to it that can move something roughly resembling an actual car.[br]
 ## The way you use it is to simply attach a mesh or sprite to the car and give it a collider and there you go![br]
 ## If you have any questions or something is broken, go to the GitHub repository for this project and start a discussion in the 'Issues' tab.[br][br]
@@ -13,7 +15,7 @@ extends CharacterBody2D
 ## Manages the break speed of the car. The higher it is, the faster the car decelerates from a velocity higher than 0.
 @export var break_speed: float = 1.0
 ## Holds the maximum speed of the car. Remember - as of now, max speed is always slightly overshot because the code isn't as clean yet, but that will likely change in the future.
-@export var max_speed: float = 300.0
+@export var max_speed: float = 250.0
 ## Manages the maximum turn strength of the car. The current turn strength of the car is highest at the speed 300 (or also, because of Godot's inverted y axis, it's -300).		
 @export var turn_strength: float = 2.0
 ## This number is the velocity at which the car turns the best. At default, the best turning speed for the car is 300. This, of course, can be changed.
@@ -112,3 +114,4 @@ func _process(delta: float) -> void:
 	move_and_slide()
 	# A simple built-in function into Godot that handles movement passively (no parameters required).
 	
+# PLEASE READ THE README TUTORIAL ON GITHUB! [br][br]
