@@ -159,5 +159,6 @@ Now you can test the car!
 
 Go to GitHub and submit a new issue under the *issues* tab in the repository for the CarDriver2D.
 
+---
 
 And all should be done! Have fun with the add-on! :D
