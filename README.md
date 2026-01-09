@@ -1,29 +1,29 @@
 # Download
 
-There's two ways of doing it:
-Trough the ***Godot Asset Library***, and ***GitHub***.
+There's two ways of doing it:  
+Trough the **Godot Asset Library**, and **GitHub**.
 
 ## Through the Godot Asset Library
 
 This one's relatively easy. You most likely came from there.  
-What you do, is go back to the ***Godot Asset Library***, and then search for my product (Car Driver 2D) and then click on it.
+What you do, is go back to the **Godot Asset Library**, and then search for my product (*Car Driver 2D*) and then click on it.
 
 > Note:
 >
-> Make sure you type '*Car Driver 2D*', and not 'CarDriver2D'. Otherwise, the Godot Asset Library won't find the add-on.
+> Make sure you type '*Car Driver 2D*', and not 'CarDriver2D'. Otherwise, the Godot Asset Library won't find the add-on.  
 > Additionally, capitalization does *NOT* matter.
 
-Now that you have found my add-on in the ***Godot Asset Library*** (if you haven't already), you see (obviously the name), the add-on's tags, the description, screenshots and some buttons. They, as of now, include:  
+Now that you have found my add-on in the *Godot Asset Library* (if you haven't already), you see (obviously the name), the add-on's tags, the description, screenshots and some buttons. They, as of now, include:  
 	- 'View files'  
 	- 'Download'  
 	- 'Submit an Issue'  
 	- 'Recent Edits'
 
-What we're aiming for is the ***Download*** button. Click on that, and then your file manager should appear.  
+What we're aiming for is the **Download** button. Click on that, and then your file manager should appear.  
 Simply select your desired destination of the file, download it, extract it in that folder, and there you should, if you open the folder, see the add-on in the folder path and then in the *addons/cardriver2d* folder.
 
 > Note:
-> When you open the *addons* folder, you should see *car.gd* and *top_down_car.svg*.
+> When you open the *addons* folder, you should see *car.gd* and *top_down_car.svg*.  
 > If you like, you can delete the car svg, since this is only something I made quickly for testing, but I put it in if anybody likes it. :D
 
 Then, when you'd like to add it to one of your projects (if you haven't directly added it to one yet), simply add the addons folder to your desired project and there you go!  
@@ -31,8 +31,8 @@ Then, when you'd like to add it to one of your projects (if you haven't directly
 
 ## Trough GitHub
 
-This one's slightly more advanced, since you will use the terminal for this tutorial, but you get slightly more out of it. Since the *Godot Asset Library* doesn't give you the *entire GitHub repository*, but only the *addons* folder.
-With the ***GitHub* method***, you can get your hands on the *entire project*. Since you require the terminal for this, it's easier if I write this down in concrete steps, as follows:
+This one's slightly more advanced, since you will use the terminal for this tutorial, but you get slightly more out of it. Since the *Godot Asset Library* doesn't give you the *entire GitHub repository*, but only the *addons* folder.  
+With the **GitHub method**, you can get your hands on the *entire project*. Since you require the terminal for this, it's easier if I write this down in concrete steps, as follows:
 
 > __Step 1 (optional):__
 >>
@@ -60,7 +60,9 @@ With the ***GitHub* method***, you can get your hands on the *entire project*. S
 >>
 >> You can manage the files to your liking. For example, you can use the project.godot file to test the add-on out and mess around with it.
 
-That's it for the *GitHub cloning* tutorial! On to the *Using* tutorial!
+This will get you the entire repository, not just the add-on. So the 'Sample project' (developer's testing space)
+
+That's it for the *GitHub cloning* tutorial! On to the *Setting up* tutorial!
 
 
 
@@ -100,7 +102,7 @@ The following variables are exported variables that you can see in the built-in 
 
 ## Controls-Management (NECESSARY)
 
-This is necessary, because you probably won't have these keys assigned to the dedicated movements.
+This is **necessary**, because you probably won't have these keys assigned to the dedicated movements.
 Just follow these steps:
 
 > Step 1:
@@ -144,14 +146,18 @@ Then, add new actions (name doesn't matter) and then assign a desired key to tha
 >> ... = Input.get_axis("turn_left", "turn_right")
 >>
 >> to:
+>>
 >> ... = Input.get_axis("[your_accelerate_name]", "[your_decelerate_name]")
 >> ... = Input.get_axis("[your_turn_left_name]", "[your_turn_right_name]")
 
 # Finishing up
 
-For the final step - assign *car.gd* script to a *CharacterBody2D* (and that's necessary, since the *velocity* variable doesn't exist elseswhere as far as I know) and that's it!  
+For the final step - assign *car.gd* script to a **CharacterBody2D** (and that's *necessary*, since the *velocity* variable doesn't exist elseswhere as far as I know) and that's it!  
 Now you can test the car!
 
 ## Any Errors?
 
 Go to GitHub and submit a new issue under the *issues* tab in the repository for the CarDriver2D.
+
+
+And all should be done! Have fun with the add-on! :D

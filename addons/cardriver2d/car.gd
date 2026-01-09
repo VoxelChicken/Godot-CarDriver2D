@@ -15,11 +15,11 @@ extends CharacterBody2D
 ## Manages the break speed of the car. The higher it is, the faster the car decelerates from a velocity higher than 0.
 @export var break_speed: float = 1.0
 ## Holds the maximum speed of the car. Remember - as of now, max speed is always slightly overshot because the code isn't as clean yet, but that will likely change in the future.
-@export var max_speed: float = 250.0
+@export var max_speed: float = 300.0
 ## Manages the maximum turn strength of the car. The current turn strength of the car is highest at the speed 300 (or also, because of Godot's inverted y axis, it's -300).		
 @export var turn_strength: float = 2.0
 ## This number is the velocity at which the car turns the best. At default, the best turning speed for the car is 300. This, of course, can be changed.
-@export var most_ideal_turn_speed: float = 300.0
+@export var most_ideal_turn_speed: float = 250.0
 #endregion exported variables
 
 #region NOT exported class variables
