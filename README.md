@@ -23,6 +23,7 @@ What we're aiming for is the **Download** button. Click on that, and then your f
 Simply select your desired destination of the file, download it, extract it in that folder, and there you should, if you open the folder, see the add-on in the folder path and then in the *addons/cardriver2d* folder.
 
 > Note:
+>
 > When you open the *addons* folder, you should see *car.gd* and *top_down_car.svg*.  
 > If you like, you can delete the car svg, since this is only something I made quickly for testing, but I put it in if anybody likes it. :D
 
