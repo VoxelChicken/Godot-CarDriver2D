@@ -20,7 +20,7 @@ Now that you have found my add-on in the *Godot Asset Library* (if you haven't a
 	- 'Recent Edits'
 
 What we're aiming for is the **Download** button. Click on that, and then your file manager should appear.  
-Simply select your desired destination of the file, download it, extract it in that folder, and there you should, if you open the folder, see the add-on in the folder path and then in the *addons/cardriver2d* folder.
+Simply select your desired destination of the file, download the add-on, extract it in that folder, and there you should, if you open the folder, see the add-on in the folder path and then in the *addons/cardriver2d* folder.
 
 > Note:
 >
