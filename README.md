@@ -142,12 +142,12 @@ Then, add new actions (name doesn't matter) and then assign a desired key to tha
 >>
 >> Change the the following:
 >>
->> ... = Input.get_axis("accelerate", "decelerate")
+>> ... = Input.get_axis("accelerate", "decelerate")  
 >> ... = Input.get_axis("turn_left", "turn_right")
 >>
 >> to:
 >>
->> ... = Input.get_axis("[your_accelerate_name]", "[your_decelerate_name]")
+>> ... = Input.get_axis("[your_accelerate_name]", "[your_decelerate_name]")  
 >> ... = Input.get_axis("[your_turn_left_name]", "[your_turn_right_name]")
 
 # Finishing up
